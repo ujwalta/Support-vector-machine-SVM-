@@ -59,11 +59,7 @@ Preprocessing: StandardScaler
 
 Train/Test Split: 80/20
 
-python
 
-Copy
-
-Edit
 
 svm_model = SVC(kernel='rbf', C=1, gamma='scale')
 
@@ -77,17 +73,12 @@ Classification Report: Perfect precision/recall on both classes
 
 Confusion Matrix:
 
-<!-- Add this screenshot after saving from your notebook -->
+![image](https://github.com/user-attachments/assets/82b7c568-b536-4c30-a6c6-e24e2ec49576)
+
 
 🚀 Flask API Usage
 
 ▶️ Run the API:
-
-bash
-
-Copy
-
-Edit
 
 python app.py
 
